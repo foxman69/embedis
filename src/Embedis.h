@@ -119,13 +119,8 @@
 #if defined(ARDUINO)
     #include "WString.h"
     #include "Stream.h"
-  #if (ARDUINO >= 100)
     /* newer Arduino IDE Version */
     #include "Arduino.h"
-  #else
-   /* older Arduino IDE Version */
-   #include "WProgram.h"
-  #endif
 #else
    /* NOT the Arduino IDE... */
    /* (i.e. Travis Testing Framework */
